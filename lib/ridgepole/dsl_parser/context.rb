@@ -81,6 +81,10 @@ class Ridgepole::DSLParser
       }
     end
 
+    def add_synonym(name, to_table, options = {})
+      # Nothing
+    end
+
     def add_foreign_key(from_table, to_table, options = {})
       from_table = from_table.to_s
       to_table = to_table.to_s
